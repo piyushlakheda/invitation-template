@@ -1,12 +1,12 @@
 /**
  * Audio Controller for Harshita & Akash's Engagement Invitation
- * Track: JVKE - "her" (JVKE_-_her_(mp3.pm)-[AudioTrimmer.com].mp3)
+ * Track: JVKE - "her" (music.mp3)
  * Handles modern browser Autoplay policies seamlessly
  */
 
 class AudioController {
   constructor() {
-    this.audio = document.getElementById('bgAudio') || new Audio('JVKE_-_her_(mp3.pm)-[AudioTrimmer.com].mp3');
+    this.audio = document.getElementById('bgAudio') || new Audio('music.mp3');
     this.audio.loop = true;
     this.audio.preload = 'auto';
     this.audio.volume = 0.75;
