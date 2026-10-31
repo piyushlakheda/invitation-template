@@ -1,6 +1,14 @@
 # Exclude resources directory
 resources/
 
+# Local secrets and environment-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
 # OS and Editor files
 .DS_Store
 Thumbs.db
