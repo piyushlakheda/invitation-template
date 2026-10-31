@@ -1,0 +1,9 @@
+# Exclude resources directory
+resources/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+*.tmp
+.vscode/
+.idea/
