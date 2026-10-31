@@ -5,8 +5,8 @@
 
 document.addEventListener('DOMContentLoaded', () => {
   // 1. Live Countdown Timer synced to Indian Standard Time (IST)
-  // Sunday, November 15, 2026 at 11:00 PM IST (23:00 IST = 17:30 UTC)
-  const targetEpoch = Date.UTC(2026, 10, 15, 17, 30, 0);
+  // Sunday, November 15, 2026 at 11:00 AM IST (05:30 UTC)
+  const targetEpoch = Date.UTC(2026, 10, 15, 5, 30, 0);
 
   const daysEl = document.getElementById('cdDays');
   const hoursEl = document.getElementById('cdHours');
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
     "With joy in our hearts, we invite you to celebrate the engagement ceremony of Harshita & Akash. Venue: VINN Signature Prime by Vesta, Near Chitrakoot Marg, Jaipur."
   );
   const eventLocation = encodeURIComponent("VINN Signature Prime by Vesta, Near Chitrakoot Marg, Jaipur, Rajasthan");
-  const googleCalUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${eventTitle}&dates=20261115T173000Z/20261115T213000Z&details=${eventDetails}&location=${eventLocation}`;
+  const googleCalUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${eventTitle}&dates=20261115T053000Z/20261115T093000Z&details=${eventDetails}&location=${eventLocation}`;
 
   const btnGoogleCal = document.getElementById('btnGoogleCal');
   const btnGoogleCalMiddle = document.getElementById('btnGoogleCalMiddle');
