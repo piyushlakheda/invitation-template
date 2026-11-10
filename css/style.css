@@ -228,6 +228,16 @@ body {
   z-index: 10;
 }
 
+.ganesha-avatar {
+  display: block;
+  width: clamp(3.9rem, 7.5vw, 5rem);
+  height: auto;
+  margin: 0 auto 1.25rem;
+  overflow: visible;
+  color: #FFF;
+  filter: brightness(0) invert(1) drop-shadow(0 0 9px rgba(255, 255, 255, 0.3));
+}
+
 /* Editorial Minimal Typography */
 .sub-tag {
   font-family: var(--font-sans);
@@ -539,6 +549,11 @@ body {
   .sub-tag {
     font-size: 0.68rem;
     letter-spacing: 0.22em;
+    margin-bottom: 1rem;
+  }
+
+  .ganesha-avatar {
+    width: 3.75rem;
     margin-bottom: 1rem;
   }
 
